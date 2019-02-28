@@ -134,9 +134,9 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     
     #'allauth' specific authenification methods, such as login by email
-    'allauth.account.auth_backends.AuthentificationBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
 
 )
 
-SITE_ID =1
+SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
